@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/kelton-portfolio/static/js/main.187cf4b3.js",
+    "main.js": "/kelton-portfolio/static/js/main.c5368cca.js",
     "index.html": "/kelton-portfolio/index.html",
-    "main.187cf4b3.js.map": "/kelton-portfolio/static/js/main.187cf4b3.js.map"
+    "main.c5368cca.js.map": "/kelton-portfolio/static/js/main.c5368cca.js.map"
   },
   "entrypoints": [
-    "static/js/main.187cf4b3.js"
+    "static/js/main.c5368cca.js"
   ]
 }
