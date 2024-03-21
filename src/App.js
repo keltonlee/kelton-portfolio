@@ -10,10 +10,10 @@ class App extends Component {
 
     const person = {
       avatar: 'https://gndx.co/wp-content/uploads/2017/05/oscar_barajas.jpg',
-      name: 'Oscar Barajas',
-      profession: 'FrontEnd Developer',
+      name: 'Yen-Ting(Kelton) Lee',
+      profession: 'Software Engineer',
       bio: '❤ Front end Developer - Growth Hacker at @CityDrive, CSS Lover, Geek & Blogger. Better known as The Grumpy Developer.',
-      address: 'Guadalajara, Jalisco México.',
+      address: 'Kaohsiung, Taiwan.',
       social: [
         {name: 'facebook', url: 'https://facebook.com/oscarbarajastavares'},
         {name: 'twitter', url: 'https://twitter.com/gndx'},
@@ -21,8 +21,8 @@ class App extends Component {
         {name: 'linkedin', url: 'https://www.linkedin.com/in/oscarbarajas/'}
       ],
       experience: [
-        {jobTitle: 'FrontEnd', company: 'CityDrive', startDate: 'Jan 2016', endDate: 'Present', jobDescription: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
-        {jobTitle: 'Backend', company: 'DragonsDev', startDate: 'September 2014', endDate: 'Jan 2016', jobDescription: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
+        {jobTitle: 'Research Assistant', company: 'Academia Sinica', startDate: 'Aug 2023', endDate: 'Present', jobDescription: 'Full time TinyML and Sustainable AI research supervised by Prof. Pi-Cheng Hsiu. Conduct research and implement carbon-aware AI models on embedded microcontroller units through Neural Architecture Search.'},
+        {jobTitle: 'Research Assistant', company: 'Chang Gung University & Chang Gung Memorial Hospital', startDate: 'April 2023', endDate: 'Oct 2023', jobDescription: 'Conduct extensive Large Language Model experiments for medical disease analysis and explore the applicability of prompting techniques (few-shot, chain-of-thought, ...) to data analysis and knowledge extraction.'},
       ],
       education: [
         {degree: 'B.Sc. in Computer Science and Information Engineering', institution: 'Chang Gung University', startDate: 'Sep 2019', endDate: 'Jun 2023', description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
