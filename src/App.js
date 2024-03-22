@@ -15,6 +15,7 @@ class App extends Component {
       profession: 'Software Engineer',
       bio: '❤ Front end Developer - Growth Hacker at @CityDrive, CSS Lover, Geek & Blogger. Better known as The Grumpy Developer.',
       address: 'Kaohsiung, Taiwan.',
+      email: 'keltonyt@gmail.com',
       social: [
         {name: 'facebook', url: 'https://www.facebook.com/keltonyt'},
         {name: 'email', url: 'mailto:keltonyt@gmail.com'},
