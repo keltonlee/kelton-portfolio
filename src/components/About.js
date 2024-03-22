@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Social from './Social';
 
-const About = ({avatar, name, profession, bio, address, email, social}) => {
+const About = ({avatar, name, profession, bio, address, email, CV, social}) => {
   return(
     <div className='bio'>
       <div className='avatar'>
@@ -21,6 +21,11 @@ const About = ({avatar, name, profession, bio, address, email, social}) => {
       <div className='email'>
         <p>{email}</p>
       </div>
+      <div className='CV'>
+        <a href='https://drive.google.com/file/d/1L8GERaSRVURN8_x0Alj5OoPeQQKpV3wm/view?usp=sharing'>
+          <p>{CV}</p>
+        </a>
+      </div>
       <Social social={social} />
     </div>
   );
@@ -33,6 +38,7 @@ About.propTypes = {
   bio: PropTypes.string,
   address: PropTypes.string,
   email: PropTypes.string,
+  CV: PropTypes.string,
   social: PropTypes.node
 };
 

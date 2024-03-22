@@ -16,6 +16,7 @@ class App extends Component {
       bio: '❤ Front end Developer - Growth Hacker at @CityDrive, CSS Lover, Geek & Blogger. Better known as The Grumpy Developer.',
       address: 'Kaohsiung, Taiwan.',
       email: 'keltonyt@gmail.com',
+      CV: 'curriculum vitae',
       social: [
         {name: 'facebook', url: 'https://www.facebook.com/keltonyt'},
         {name: 'envelope', url: 'mailto:keltonyt@gmail.com'},
@@ -53,6 +54,8 @@ class App extends Component {
               profession={person.profession}
               bio={person.bio}
               address={person.address}
+              email={person.email}
+              CV={person.email}
               social={person.social} />
           </div>
 
