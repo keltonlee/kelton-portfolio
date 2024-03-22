@@ -4,12 +4,13 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Certificate from './components/Certificate';
 import Skills from './components/Skills';
+import photo from './components/photo.jpg';
 
 class App extends Component {
   render() {
 
     const person = {
-      avatar: 'https://gndx.co/wp-content/uploads/2017/05/oscar_barajas.jpg',
+      avatar: photo,
       name: 'Yen-Ting(Kelton) Lee',
       profession: 'Software Engineer',
       bio: '❤ Front end Developer - Growth Hacker at @CityDrive, CSS Lover, Geek & Blogger. Better known as The Grumpy Developer.',
