@@ -16,7 +16,7 @@ class App extends Component {
       bio: '❤ Front end Developer - Growth Hacker at @CityDrive, CSS Lover, Geek & Blogger. Better known as The Grumpy Developer.',
       address: 'Kaohsiung, Taiwan.',
       social: [
-        {name: 'facebook', url: 'https://facebook.com/oscarbarajastavares'},
+        {name: 'facebook', url: 'https://www.facebook.com/keltonyt'},
         {name: 'email', url: 'mailto:keltonyt@gmail.com'},
         {name: 'github', url: 'https://github.com/keltonlee'},
         {name: 'linkedin', url: 'https://www.linkedin.com/in/keltonlee/'}
@@ -28,7 +28,7 @@ class App extends Component {
       ],
       education: [
         {degree: 'B.Sc. in Computer Science and Information Engineering', institution: 'Chang Gung University', startDate: 'Sep 2019', endDate: 'Jun 2023', description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
-        {degree: 'Ingenieria Atomica', institution: 'Harvard', startDate: 'Jan 2014', endDate: 'Decenber 2015', description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
+        // {degree: 'Ingenieria Atomica', institution: 'Harvard', startDate: 'Jan 2014', endDate: 'Decenber 2015', description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
       ],
       certificate: [
         {name: 'FrontEnd Developer', institution: 'Platzi', date: 'Jan 2015', description: 'Aenean commodo ligula eget dolor. Aenean massa.' },
