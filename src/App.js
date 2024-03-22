@@ -18,7 +18,7 @@ class App extends Component {
       email: 'keltonyt@gmail.com',
       social: [
         {name: 'facebook', url: 'https://www.facebook.com/keltonyt'},
-        {name: 'email', url: 'mailto:keltonyt@gmail.com'},
+        {name: 'envelope', url: 'mailto:keltonyt@gmail.com'},
         {name: 'github', url: 'https://github.com/keltonlee'},
         {name: 'linkedin', url: 'https://www.linkedin.com/in/keltonlee/'}
       ],
