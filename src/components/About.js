@@ -22,7 +22,7 @@ const About = ({avatar, name, profession, bio, address, email, CV, social}) => {
         <p>{email}</p>
       </div>
       <div className='CV'>
-        <a href='https://drive.google.com/file/d/1L8GERaSRVURN8_x0Alj5OoPeQQKpV3wm/view?usp=sharing'>
+        <a target="_blank" rel="noopener noreferrer" href='https://drive.google.com/file/d/1L8GERaSRVURN8_x0Alj5OoPeQQKpV3wm/view?usp=sharing'>
           <p>{CV}</p>
         </a>
       </div>

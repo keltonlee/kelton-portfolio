@@ -55,7 +55,7 @@ class App extends Component {
               bio={person.bio}
               address={person.address}
               email={person.email}
-              CV={person.email}
+              CV={person.CV}
               social={person.social} />
           </div>
 
