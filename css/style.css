@@ -60,6 +60,7 @@ header .wrapper .content-wrapper {
 
 .sidebar .bio .avatar img {
     width: 140px;
+    height: 140px;
     border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, 0.2);
     -webkit-box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
