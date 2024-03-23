@@ -34,8 +34,7 @@ class App extends Component {
         // {degree: 'Ingenieria Atomica', institution: 'Harvard', startDate: 'Jan 2014', endDate: 'Decenber 2015', description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
       ],
       certificate: [
-        {name: 'FrontEnd Developer', institution: 'Platzi', date: 'Jan 2015', description: 'Aenean commodo ligula eget dolor. Aenean massa.' },
-        {name: 'Backend Developer', institution: 'Platzi', date: 'Jan 2016', description: 'Aenean commodo ligula eget dolor. Aenean massa.' }
+        {name: 'Natural Language Processing Specialization', institution: 'DeepLearning.AI', date: 'March 2024', description: 'Learned cutting-edge NLP techniques including Sequence models, Attention models, and more!' },
       ],
       skills: [
         {name: 'HTML5', percentage: '95%'},

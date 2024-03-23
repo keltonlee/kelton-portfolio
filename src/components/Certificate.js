@@ -5,7 +5,7 @@ const Certificate = (props) => {
     <div>
       {props.certificate.map((cert) =>
         <div className='item' key={cert.name}>
-          <h3>{cert.name} @ {cert.institution} <span>{cert.date}</span></h3>
+          <h3>{cert.name} by {cert.institution} <span>{cert.date}</span></h3>
           <p>{cert.description}</p>
         </div>
       )}
