@@ -5,14 +5,15 @@ import Education from './components/Education';
 import Certificate from './components/Certificate';
 import Skills from './components/Skills';
 import photo from './components/photo.jpg';
+import photo2 from './components/photo2.png';
 
 class App extends Component {
   render() {
 
     const person = {
-      avatar: photo,
+      avatar: photo2,
       name: 'Yen-Ting(Kelton) Lee',
-      profession: 'Software Engineer',
+      profession: 'Software/Machine Learning Engineer',
       bio: '❤ Front end Developer - Growth Hacker at @CityDrive, CSS Lover, Geek & Blogger. Better known as The Grumpy Developer.',
       address: 'Kaohsiung, Taiwan.',
       email: 'keltonyt@gmail.com',
