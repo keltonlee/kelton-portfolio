@@ -14,7 +14,7 @@ class App extends Component {
       avatar: photo2,
       name: 'Yen-Ting(Kelton) Lee',
       profession: 'Software/Machine Learning Engineer',
-      bio: '❤ Front end Developer - Growth Hacker at @CityDrive, CSS Lover, Geek & Blogger. Better known as The Grumpy Developer.',
+      bio: "❤ Hello! I am Kelton, currently a grad student in United States. I'v been conducting AI research at various academic institutions in Taiwan. I'm passionate about the diverse fields of Machine Learning and the evolution of AI. I love team collaboration to create innovative products, so if you are too, you've got to get in touch with me!",
       address: 'Kaohsiung, Taiwan.',
       email: 'keltonyt@gmail.com',
       CV: 'curriculum vitae',
