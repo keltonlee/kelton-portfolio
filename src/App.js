@@ -24,16 +24,16 @@ class App extends Component {
         {name: 'linkedin', url: 'https://www.linkedin.com/in/keltonlee/'}
       ],
       experience: [
-        {jobTitle: 'Research Assistant', company: 'Academia Sinica', startDate: 'Aug 2023', endDate: 'Present', jobDescription: 'Full time TinyML and Sustainable AI research supervised by Prof. Pi-Cheng Hsiu. Conduct research and implement carbon-aware AI models on embedded microcontroller units through Neural Architecture Search.'},
-        {jobTitle: 'Research Assistant', company: 'Chang Gung University & Chang Gung Memorial Hospital', startDate: 'April 2023', endDate: 'Oct 2023', jobDescription: 'Conducted extensive Large Language Model experiments for medical disease analysis and explore the applicability of prompting techniques (few-shot, chain-of-thought, ...) to data analysis and knowledge extraction.'},
-        {jobTitle: 'Research Assistant', company: 'Chang Gung University & So-Charming Technology', startDate: 'Oct 2022', endDate: 'Aug 2023', jobDescription: 'Developed real-time viewer counting system on PC and Raspberry Pi for high-speed advertising vehicles'}
+        {jobTitle: 'Research Assistant', company: 'Academia Sinica', startDate: 'Aug. 2023', endDate: 'Present', jobDescription: 'Full time TinyML and Sustainable AI research supervised by Prof. Pi-Cheng Hsiu. Conduct research and implement carbon-aware AI models on embedded microcontroller units through Neural Architecture Search.'},
+        {jobTitle: 'Research Assistant', company: 'Chang Gung University & Chang Gung Memorial Hospital', startDate: 'Apr. 2023', endDate: 'Oct. 2023', jobDescription: 'Conducted extensive Large Language Model experiments for medical disease analysis and explore the applicability of prompting techniques (few-shot, chain-of-thought, ...) to data analysis and knowledge extraction.'},
+        {jobTitle: 'Research Assistant', company: 'Chang Gung University & So-Charming Technology', startDate: 'Oct. 2022', endDate: 'Aug. 2023', jobDescription: 'Developed real-time viewer counting system on PC and Raspberry Pi for high-speed advertising vehicles'}
       ],
       education: [
-        {degree: 'B.Sc. in Computer Science and Information Engineering', institution: 'Chang Gung University', startDate: 'Sep 2019', endDate: 'Jun 2023'},
+        {degree: 'B.Sc. in Computer Science and Information Engineering', institution: 'Chang Gung University', startDate: 'Sep. 2019', endDate: 'Jun. 2023'},
         // {degree: 'Ingenieria Atomica', institution: 'Harvard', startDate: 'Jan 2014', endDate: 'Decenber 2015', description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
       ],
       certificate: [
-        {name: 'Natural Language Processing Specialization', institution: 'DeepLearning.AI', date: 'March 2024', description: 'Learned cutting-edge NLP techniques including Sequence models, Attention models, and more!' },
+        {name: 'Natural Language Processing Specialization', institution: 'DeepLearning.AI', date: 'Mar. 2024', description: 'Learned cutting-edge NLP techniques including Sequence models, Attention models, and more!' },
       ],
       skills: [
         {name: 'HTML/CSS/JavaScript', percentage: '70%'},
