@@ -2,35 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Social from './Social';
 
-const styles = {
-  ResBtn: {
-    display: 'inline-block',
-    padding: '10px 20px',
-    fontSize: '16px',
-    backgroundColor: '#553075',
-    color: '#fff',
-    border: 'none',
-    borderRadius: '5px',
-    textDecoration: 'none',
-    cursor: 'pointer',
-    transition: 'background-color 0.3s ease',
-  },
-  MailBtn: {
-    display: 'inline-block',
-    padding: '10px 17px',
-    fontSize: '16px',
-    backgroundColor: '#7c721b',
-    color: '#fff',
-    border: 'none',
-    borderRadius: '5px',
-    textDecoration: 'none',
-    cursor: 'pointer',
-    transition: 'background-color 0.3s ease',
-  },
-  buttonHover: {
-    backgroundColor: '#0056b3',
-  }
-};
+
 
 const About = ({avatar, name, profession, bio, address, email, CV, social}) => {
   return(
@@ -49,10 +21,10 @@ const About = ({avatar, name, profession, bio, address, email, CV, social}) => {
         <p>{address}</p>
       </div>
       <div>
-        <a href={'https://drive.google.com/file/d/1L8GERaSRVURN8_x0Alj5OoPeQQKpV3wm/view?usp=sharing'} target='_blank' rel="noopener noreferrer" style={styles.ResBtn}>Curriculum Vitae</a>
+        <a href={'https://drive.google.com/file/d/1L8GERaSRVURN8_x0Alj5OoPeQQKpV3wm/view?usp=sharing' } target='_blank' rel="noopener noreferrer" className='ResBtn'>Curriculum Vitae</a>
       </div>
       <div style={{ marginTop: '15px' }}>
-        <a href={`mailto:${'keltonyt@gmail.com'}`} target='_blank' rel="noopener noreferrer" style={styles.MailBtn} >Email Me</a>
+        <a href={`mailto:${'keltonyt@gmail.com'}`} target='_blank' rel="noopener noreferrer" className='MailBtn' >Email Me</a>
       </div>
       {/* <div className='email'>
         <p>{email}</p>

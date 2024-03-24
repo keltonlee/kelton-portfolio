@@ -235,7 +235,7 @@ header .wrapper .content-wrapper {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007bff;
+    background-color: #553075;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -244,6 +244,29 @@ header .wrapper .content-wrapper {
     transition: background-color 0.3s ease;
 }
 
+.ResBtn:hover {
+    background-color: #68439e;
+}
+
+.MailBtn {
+    display: inline-block;
+    padding: 10px 17px;
+    font-size: 16px;
+    background-color: #7c721b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.MailBtn:hover {
+    background-color: #9a8d1d;
+}
+
+
+/* 手機 */
 @-webkit-keyframes move {
     0% {
         background-position: 0 0
