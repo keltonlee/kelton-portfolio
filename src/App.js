@@ -36,10 +36,11 @@ class App extends Component {
         {name: 'Natural Language Processing Specialization', institution: 'DeepLearning.AI', date: 'March 2024', description: 'Learned cutting-edge NLP techniques including Sequence models, Attention models, and more!' },
       ],
       skills: [
-        {name: 'HTML5', percentage: '95%'},
-        {name: 'CSS', percentage: '90%'},
-        {name: 'JavaScript', percentage: '75%'},
-        {name: 'PHP', percentage: '50%'}
+        {name: 'HTML/CSS/JavaScript', percentage: '80%'},
+        {name: 'SQL', percentage: '85%'},
+        {name: 'Python', percentage: '90%'},
+        {name: 'PHP', percentage: '80%'},
+        {name: 'C++/C', percentage: '90%'}
       ]
     };
 
