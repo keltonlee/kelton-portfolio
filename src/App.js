@@ -4,14 +4,13 @@ import Experience from './components/Experience';
 import Education from './components/Education';
 import Certificate from './components/Certificate';
 import Skills from './components/Skills';
-import photo from './components/photo.jpg';
-import photo2 from './components/photo2.png';
+import myphoto from './components/myphoto.jpg';
 
 class App extends Component {
   render() {
 
     const person = {
-      avatar: photo2,
+      avatar: myphoto,
       name: 'Yen-Ting(Kelton) Lee',
       profession: 'Software/Machine Learning Engineer',
       bio: "❤ Hello! I am Kelton, currently a grad student in United States. I'v been conducting AI research at various academic institutions in Taiwan. I'm passionate about the diverse fields of Machine Learning and the evolution of AI. I love team collaboration to create innovative products, so if you are too, you've got to get in touch with me!",
