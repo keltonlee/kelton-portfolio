@@ -29,7 +29,7 @@ class App extends Component {
         {jobTitle: 'Research Assistant', company: 'Chang Gung University & So-Charming Technology', startDate: 'Oct 2022', endDate: 'Aug 2023', jobDescription: 'Developed real-time viewer counting system on PC and Raspberry Pi for high-speed advertising vehicles'}
       ],
       education: [
-        {degree: 'B.Sc. in Computer Science and Information Engineering', institution: 'Chang Gung University', startDate: 'Sep 2019', endDate: 'Jun 2023', description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
+        {degree: 'B.Sc. in Computer Science and Information Engineering', institution: 'Chang Gung University', startDate: 'Sep 2019', endDate: 'Jun 2023'},
         // {degree: 'Ingenieria Atomica', institution: 'Harvard', startDate: 'Jan 2014', endDate: 'Decenber 2015', description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
       ],
       certificate: [

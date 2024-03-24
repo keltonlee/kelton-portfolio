@@ -6,7 +6,6 @@ const Education = (props) => {
       {props.education.map((edu) =>
         <div className='item' key={edu.degree}>
           <h3>{edu.degree} @ {edu.institution} <span>{edu.startDate} - {edu.endDate}</span></h3>
-          <p>{edu.description}</p>
         </div>
       )}
     </div>
