@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/kelton-portfolio/static/js/main.1ddd5c92.js",
+    "main.js": "/kelton-portfolio/static/js/main.6f2c633c.js",
     "static/media/myphoto.jpg": "/kelton-portfolio/static/media/myphoto.30f94881b193280b347b.jpg",
     "index.html": "/kelton-portfolio/index.html",
-    "main.1ddd5c92.js.map": "/kelton-portfolio/static/js/main.1ddd5c92.js.map"
+    "main.6f2c633c.js.map": "/kelton-portfolio/static/js/main.6f2c633c.js.map"
   },
   "entrypoints": [
-    "static/js/main.1ddd5c92.js"
+    "static/js/main.6f2c633c.js"
   ]
 }
