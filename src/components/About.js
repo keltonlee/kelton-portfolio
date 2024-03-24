@@ -19,7 +19,7 @@ const styles = {
     display: 'inline-block',
     padding: '10px 17px',
     fontSize: '16px',
-    backgroundColor: '#547388',
+    backgroundColor: '#7c721b',
     color: '#fff',
     border: 'none',
     borderRadius: '5px',
@@ -29,7 +29,7 @@ const styles = {
   },
   buttonHover: {
     backgroundColor: '#0056b3',
-  },
+  }
 };
 
 const About = ({avatar, name, profession, bio, address, email, CV, social}) => {

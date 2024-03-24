@@ -46,11 +46,11 @@ header .wrapper .content-wrapper {
     float: left;
     color: #fff !important;
     height: 100%;
-    background-image: -webkit-linear-gradient(bottom, #03101c 0%, #14375a 100%);
-    background-image: -moz-linear-gradient(bottom, #03101c 0%, #14375a 100%);
-    background-image: -o-linear-gradient(bottom, #03101c 0%, #14375a 100%);
-    background-image: -ms-linear-gradient(bottom, #03101c 0%, #14375a 100%);
-    background-image: linear-gradient(to top, #03101c 0%, #14375a 100%);
+    background-image: -webkit-linear-gradient(bottom, #052b3c 0%, #146c81 100%);
+    background-image: -moz-linear-gradient(bottom, #052b3c 0%, #146c81 100%);
+    background-image: -o-linear-gradient(bottom, #052b3c 0%, #146c81 100%);
+    background-image: -ms-linear-gradient(bottom, #052b3c 0%, #146c81 100%);
+    background-image: linear-gradient(to top, #052b3c 0%, #146c81 100%);
 }
 
 .sidebar .bio {
