@@ -49,19 +49,19 @@ const About = ({avatar, name, profession, bio, address, email, CV, social}) => {
         <p>{address}</p>
       </div>
       <div>
-        <a href={'https://drive.google.com/file/d/1vMApecGcZ2l_iO4zSuVHPDw6JvbEG7zE/view?usp=drive_link'} target='_blank' rel="noopener noreferrer" style={styles.ResBtn}>Resume</a>
+        <a href={'https://drive.google.com/file/d/1L8GERaSRVURN8_x0Alj5OoPeQQKpV3wm/view?usp=sharing'} target='_blank' rel="noopener noreferrer" style={styles.ResBtn}>Curriculum Vitae</a>
       </div>
       <div style={{ marginTop: '15px' }}>
         <a href={`mailto:${'keltonyt@gmail.com'}`} target='_blank' rel="noopener noreferrer" style={styles.MailBtn} >Email Me</a>
       </div>
-      <div className='email'>
+      {/* <div className='email'>
         <p>{email}</p>
       </div>
       <div className='CV'>
         <a target="_blank" rel="noopener noreferrer" href='https://drive.google.com/file/d/1L8GERaSRVURN8_x0Alj5OoPeQQKpV3wm/view?usp=sharing'>
           <p>{CV}</p>
         </a>
-      </div>
+      </div> */}
       <Social social={social} />
     </div>
   );
