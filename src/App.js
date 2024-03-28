@@ -34,6 +34,7 @@ class App extends Component {
       ],
       certificate: [
         {name: 'Natural Language Processing Specialization', institution: 'DeepLearning.AI', date: 'Mar. 2024', description: 'Learned cutting-edge NLP techniques including Sequence models, Attention models, and more!' },
+        {name: 'NoSQL, Big Data, and Spark Foundations Specialization', institution: 'IBM', date: 'Apr. 2024', description: 'Learned big data abd machine learning with Hadoop, SQL, MongoDB, and Spark!' }
       ],
       skills: [
         {name: 'HTML/CSS/JavaScript', percentage: '70%'},
