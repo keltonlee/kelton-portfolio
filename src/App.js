@@ -25,19 +25,26 @@ class App extends Component {
       ],
       experience: [
         {jobTitle: 'Research Assistant', company: 'Academia Sinica', startDate: 'Aug. 2023', endDate: 'Present', 
-          jobDescription: ['Full time TinyML and Sustainable AI research supervised by Prof. Pi-Cheng Hsiu. Conduct research and implement carbon-aware AI models on embedded microcontroller units through Neural Architecture Search.']},
+          jobDescription: [`Participated in the design, optimization, and implementation of a sustainable Neural Architecture Search (NAS) framework for developing carbon-efficient Transformers and 
+            CNN models, optimized for STM32 microcontrollers`, 
+            `Achieved a 35% reduction in carbon footprint on CNN models by designing the NAS search algorithm and optimizing model flash, CPU, and energy usage using Python and Pytorch`, 
+            `Conducted research on compression techniques for Transformer architecture on microcontrollers, including quantization, pruning, and knowledge distillation`
+          ]},
         
         {jobTitle: 'Research Assistant', company: 'Chang Gung University & Chang Gung Memorial Hospital', startDate: 'Apr. 2023', endDate: 'Oct. 2023', 
-          jobDescription: ['Conducted extensive Large Language Model experiments for medical disease analysis and explore the applicability of prompting techniques (few-shot, chain-of-thought, ...) to data analysis and knowledge extraction.']},
+          jobDescription: [`Utilize Large Language Models (GPT, BERT) for the diagnosis of autism spectrum disorder, exploring prompt engineering methods for data analysis and disease prediction`, 
+            `Attained 88% accuracy in disease prediction for over 7700 patients by researching prompting engineering techniques including zero-shot, few-shot, chain-of-thought, and expert prompting on LLMs`
+          ]},
         
         {jobTitle: 'Research Assistant', company: 'Chang Gung University & So-Charming Technology', startDate: 'Oct. 2022', endDate: 'Aug. 2023', 
           jobDescription: [`Develop real-time viewer counting system on both Linux and Raspberry Pi platforms for 25MPH or higher advertising vehicles`, 
-          , `Realized 80% accuracy in d`]}
+          `Realized 80% accuracy in detecting high-speed imagery using Python, OpenCV, PyTorch, and YOLOv7 by
+          developing a facial recognition and tracking system featuring real-time data processing and API integration`, 
+          `Utilized CUDA to accelerate the model to achieve 28 FPS`]}
       ],
       education: [
         {degree: 'M.Sc. in Computer Science and Engineering', institution: 'University of California - San Diego', startDate: 'Sep. 2024', endDate: 'Jun. 2026'},
         {degree: 'B.Sc. in Computer Science and Information Engineering', institution: 'Chang Gung University', startDate: 'Sep. 2019', endDate: 'Jun. 2023'},
-        // {degree: 'Ingenieria Atomica', institution: 'Harvard', startDate: 'Jan 2014', endDate: 'Decenber 2015', description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
       ],
       certificate: [
         {name: 'Natural Language Processing Specialization', institution: 'DeepLearning.AI', date: 'Mar. 2024', description: 'Learned cutting-edge NLP techniques including Sequence models, Attention models, and more!' },
