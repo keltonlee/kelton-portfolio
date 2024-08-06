@@ -37,6 +37,7 @@ class App extends Component {
           • Utilized CUDA to accelerate the model to achieve 28 FPS`}
       ],
       education: [
+        {degree: 'M.Sc. in Computer Science and Engineering', institution: 'University of California - San Diego', startDate: 'Sep. 2024', endDate: 'Jun. 2026'},
         {degree: 'B.Sc. in Computer Science and Information Engineering', institution: 'Chang Gung University', startDate: 'Sep. 2019', endDate: 'Jun. 2023'},
         // {degree: 'Ingenieria Atomica', institution: 'Harvard', startDate: 'Jan 2014', endDate: 'Decenber 2015', description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.'},
       ],
