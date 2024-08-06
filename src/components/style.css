@@ -1,4 +1,8 @@
 .dataPosition {
     float: right; /* Moves the element to the right */
-    margin-right: 10px;
+    margin-right: 15px;
+}
+
+.job-description-list li {
+    margin-bottom: 10px; /* Adjust this value to add space */
 }
