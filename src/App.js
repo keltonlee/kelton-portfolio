@@ -13,7 +13,7 @@ class App extends Component {
       avatar: myphoto,
       name: 'Yen-Ting(Kelton) Lee',
       profession: 'Software/Machine Learning Engineer',
-      bio: "❤ Hello! I am Kelton, currently a grad student in United States. I'v been conducting AI research at various academic institutions in Taiwan. I'm passionate about the diverse fields of Machine Learning and the evolution of AI. I love team collaboration to create innovative products, so if you are too, you've got to get in touch with me!",
+      bio: "❤ Hello! I am Kelton, currently a Master's student at University of California - San Diego. I'v been conducting AI research at various academic institutions in Taiwan. I'm passionate about the diverse fields of Machine Learning and the evolution of AI. I love team collaboration to create innovative products, so if you are too, you've got to get in touch with me!",
       address: 'Kaohsiung, Taiwan.',
       email: 'keltonyt@gmail.com',
       CV: 'curriculum vitae',
