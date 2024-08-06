@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 
 const Education = (props) => {
   const itemStyle = {
@@ -9,7 +10,7 @@ const Education = (props) => {
     <div>
       {props.education.map((edu) =>
         <div className='item' key={edu.degree} style={itemStyle}>
-          <h3>{edu.degree} @ {edu.institution} <span>{edu.startDate} - {edu.endDate}</span></h3>
+          <h3>{edu.degree} @ {edu.institution} <span className='dataPosition'>{edu.startDate} - {edu.endDate}</span></h3>
         </div>
       )}
     </div>
