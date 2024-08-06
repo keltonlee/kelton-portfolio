@@ -24,14 +24,14 @@ class App extends Component {
         {name: 'linkedin', url: 'https://www.linkedin.com/in/keltonlee/'}
       ],
       experience: [
-        {jobTitle: 'Research Assistant', company: 'Academia Sinica', startDate: 'Aug. 2023', endDate: 'Present', 
+        {jobTitle: 'Machine Learning Research Assistant', company: 'Academia Sinica', startDate: 'Aug. 2023', endDate: 'Present', 
           jobDescription: [`Participated in the design, optimization, and implementation of a sustainable Neural Architecture Search (NAS) framework for developing carbon-efficient Transformers and 
             CNN models, optimized for STM32 microcontrollers`, 
             `Achieved a 35% reduction in carbon footprint on CNN models by designing the NAS search algorithm and optimizing model flash, CPU, and energy usage using Python and Pytorch`, 
             `Conducted research on compression techniques for Transformer architecture on microcontrollers, including quantization, pruning, and knowledge distillation`
           ]},
         
-        {jobTitle: 'Machine Learning Research Assistant', company: 'Chang Gung University & Chang Gung Memorial Hospital', startDate: 'Apr. 2023', endDate: 'Oct. 2023', 
+        {jobTitle: 'Research Assistant', company: 'Chang Gung University & Chang Gung Memorial Hospital', startDate: 'Apr. 2023', endDate: 'Oct. 2023', 
           jobDescription: [`Utilize Large Language Models (GPT, BERT) for the diagnosis of autism spectrum disorder, exploring prompt engineering methods for data analysis and disease prediction`, 
             `Attained 88% accuracy in disease prediction for over 7700 patients by researching prompting engineering techniques including zero-shot, few-shot, chain-of-thought, and expert prompting on LLMs`
           ]},
