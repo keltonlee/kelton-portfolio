@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/kelton-portfolio/static/css/main.5fec13c4.css",
-    "main.js": "/kelton-portfolio/static/js/main.3d01169e.js",
+    "main.css": "/kelton-portfolio/static/css/main.b36594bc.css",
+    "main.js": "/kelton-portfolio/static/js/main.c48f6b5c.js",
     "static/media/myphoto.jpg": "/kelton-portfolio/static/media/myphoto.30f94881b193280b347b.jpg",
     "index.html": "/kelton-portfolio/index.html",
-    "main.5fec13c4.css.map": "/kelton-portfolio/static/css/main.5fec13c4.css.map",
-    "main.3d01169e.js.map": "/kelton-portfolio/static/js/main.3d01169e.js.map"
+    "main.b36594bc.css.map": "/kelton-portfolio/static/css/main.b36594bc.css.map",
+    "main.c48f6b5c.js.map": "/kelton-portfolio/static/js/main.c48f6b5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fec13c4.css",
-    "static/js/main.3d01169e.js"
+    "static/css/main.b36594bc.css",
+    "static/js/main.c48f6b5c.js"
   ]
 }
