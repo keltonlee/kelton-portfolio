@@ -2,7 +2,7 @@ import React from 'react';
 
 const Education = (props) => {
   const itemStyle = {
-    marginBottom: '10px' // Adjust this value as needed
+    marginBottom: '2px' // Adjust this value as needed
   };
 
   const myEducation = (
