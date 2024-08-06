@@ -1,10 +1,14 @@
 import React from 'react';
 
 const Education = (props) => {
+  const itemStyle = {
+    marginBottom: '10px' // Adjust this value as needed
+  };
+
   const myEducation = (
     <div>
       {props.education.map((edu) =>
-        <div className='item' key={edu.degree}>
+        <div className='item' key={edu.degree} style={itemStyle}>
           <h3>{edu.degree} @ {edu.institution} <span>{edu.startDate} - {edu.endDate}</span></h3>
         </div>
       )}
