@@ -31,9 +31,9 @@ class App extends Component {
           jobDescription: 'Conducted extensive Large Language Model experiments for medical disease analysis and explore the applicability of prompting techniques (few-shot, chain-of-thought, ...) to data analysis and knowledge extraction.'},
         
         {jobTitle: 'Research Assistant', company: 'Chang Gung University & So-Charming Technology', startDate: 'Oct. 2022', endDate: 'Aug. 2023', 
-          jobDescription: `• Develop real-time viewer counting system on both Linux and Raspberry Pi platforms for 25MPH or higher advertising vehicles<br/>
+          jobDescription: `• Develop real-time viewer counting system on both Linux and Raspberry Pi platforms for 25MPH or higher advertising vehicles\n
           • Realized 80% accuracy in detecting high-speed imagery using Python, OpenCV, PyTorch, and YOLOv7 by
-          developing a facial recognition and tracking system featuring real-time data processing and API integration<br/>
+          developing a facial recognition and tracking system featuring real-time data processing and API integration\n
           • Utilized CUDA to accelerate the model to achieve 28 FPS`}
       ],
       education: [
