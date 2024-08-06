@@ -1,11 +1,12 @@
 import React from 'react';
+import '../public/css/style.css';
 
 const Experience = (props) => {
   const myExperience = (
     <div>
       {props.experience.map((exp) =>
         <div className='item' key={exp.jobTitle}>
-          <h3>{exp.jobTitle} @ {exp.company} <span>{exp.startDate} - {exp.endDate}</span></h3>
+          <h3>{exp.jobTitle} @ {exp.company} <span className='dataPosition'>{exp.startDate} - {exp.endDate}</span></h3>
           {/* <p>{exp.jobDescription}</p> */}
           <ul>
             {exp.jobDescription.map((desc, index) => (

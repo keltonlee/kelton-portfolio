@@ -265,6 +265,10 @@ header .wrapper .content-wrapper {
     background-color: #9a8d1d;
 }
 
+.dataPosition {
+    float: right; /* Moves the element to the right */
+}
+
 
 /* 手機 */
 @-webkit-keyframes move {
