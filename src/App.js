@@ -33,7 +33,7 @@ class App extends Component {
         {jobTitle: 'Research Assistant', company: 'Chang Gung University & So-Charming Technology', startDate: 'Oct. 2022', endDate: 'Aug. 2023', 
           jobDescription: `• Develop real-time viewer counting system on both Linux and Raspberry Pi platforms for 25MPH or higher advertising vehicles\n
           • Realized 80% accuracy in detecting high-speed imagery using Python, OpenCV, PyTorch, and YOLOv7 by
-          developing a facial recognition and tracking system featuring real-time data processing and API integration\n
+          developing a facial recognition and tracking system featuring real-time data processing and API integration\n\n
           • Utilized CUDA to accelerate the model to achieve 28 FPS`}
       ],
       education: [
