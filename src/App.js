@@ -12,7 +12,7 @@ class App extends Component {
     const person = {
       avatar: myphoto,
       name: 'Yen-Ting(Kelton) Lee',
-      profession: 'Software/Machine Learning Engineer',
+      profession: 'Machine Learning Engineer',
       bio: "❤ Hello! I am Kelton, currently a Master's student at UCSD. I'v been conducting AI research at various academic institutions in Taiwan. I'm passionate about the diverse fields of Machine Learning and the evolution of AI. I love team collaboration to create innovative products, so if you are too, you've got to get in touch with me!",
       address: 'Kaohsiung, Taiwan.',
       email: 'keltonyt@gmail.com',
@@ -24,10 +24,16 @@ class App extends Component {
         {name: 'linkedin', url: 'https://www.linkedin.com/in/keltonlee/'}
       ],
       experience: [
-        {jobTitle: 'Machine Learning Research Assistant', company: 'Academia Sinica', startDate: 'Aug. 2023', endDate: 'Present', 
-          jobDescription: [`Participated in the design, optimization, and implementation of a sustainable Neural Architecture Search (NAS) framework for developing carbon-efficient Transformers and 
-            CNN models, optimized for STM32 microcontrollers`, 
+        {jobTitle: 'LLM Full Stack Developer Graduate Intern', company: 'Accenture', startDate: 'Jun. 2025', endDate: 'Sep. 2025', 
+          jobDescription: [`Developed a collaborative multi-agent system using AutoGen to tackle real-world business cases, integrating planning, retrieval, and evaluation agents to optimize workflow execution and decision-making`, 
+            `Designed and implemented an autonomous evaluation pipeline using AutoGen, featuring an LLM-based planner to intelligently orchestrate scenario evaluations, dynamically prioritizing tasks, and avoiding redundant assessments`, 
+            `Achieved 88% evaluation accuracy by optimizing LLM prompts with DSPy and tracking performance improvements using MLflow, enhancing evaluation efficiency and reproducibility.`
+          ]},
+
+        {jobTitle: 'Machine Learning Research Assistant', company: 'Academia Sinica', startDate: 'Aug. 2023', endDate: 'Jun. 2025', 
+          jobDescription: [`Participated in the design, optimization, and implementation of a sustainable Neural Architecture Search (NAS) framework for developing carbon-efficient Transformers and CNN models, optimized for STM32 microcontrollers`, 
             `Achieved a 35% reduction in carbon footprint on CNN models by designing the NAS search algorithm and optimizing model flash, CPU, and energy usage using Python and Pytorch`, 
+            `Designed and optimized energy and latency cost models for diverse microcontroller architectures`,
             `Conducted research on compression techniques for Transformer architecture on microcontrollers, including quantization, pruning, and knowledge distillation`
           ]},
         
