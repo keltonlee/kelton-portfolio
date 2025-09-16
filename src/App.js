@@ -24,7 +24,7 @@ class App extends Component {
         {name: 'linkedin', url: 'https://www.linkedin.com/in/keltonlee/'}
       ],
       experience: [
-        {jobTitle: 'LLM Full Stack Developer Graduate Intern', company: 'Accenture', startDate: 'Jun. 2025', endDate: 'Sep. 2025', 
+        {jobTitle: 'LLM Full Stack Developer Graduate Intern', company: 'Accenture & T-Mobile', startDate: 'Jun. 2025', endDate: 'Sep. 2025', 
           jobDescription: [`Developed a collaborative multi-agent system using AutoGen to tackle real-world business cases, integrating planning, retrieval, and evaluation agents to optimize workflow execution and decision-making`, 
             `Designed and implemented an autonomous evaluation pipeline using AutoGen, featuring an LLM-based planner to intelligently orchestrate scenario evaluations, dynamically prioritizing tasks, and avoiding redundant assessments`, 
             `Achieved 88% evaluation accuracy by optimizing LLM prompts with DSPy and tracking performance improvements using MLflow, enhancing evaluation efficiency and reproducibility.`
@@ -39,7 +39,7 @@ class App extends Component {
         
         {jobTitle: 'Research Assistant', company: 'Chang Gung University & Chang Gung Memorial Hospital', startDate: 'Apr. 2023', endDate: 'Oct. 2023', 
           jobDescription: [`Utilize Large Language Models (GPT, BERT) for the diagnosis of autism spectrum disorder, exploring prompt engineering methods for data analysis and disease prediction`, 
-            `Attained 88% accuracy in disease prediction for over 7700 patients by researching prompting engineering techniques including zero-shot, few-shot, chain-of-thought, and expert prompting on LLMs`
+            `Attained 91% accuracy in disease prediction for over 8000 patients by researching prompting engineering techniques including zero-shot, few-shot, chain-of-thought, and expert prompting on LLMs`
           ]},
         
         {jobTitle: 'Research Assistant', company: 'Chang Gung University & So-Charming Technology', startDate: 'Oct. 2022', endDate: 'Aug. 2023', 
