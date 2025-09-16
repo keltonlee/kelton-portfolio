@@ -27,7 +27,7 @@ class App extends Component {
         {jobTitle: 'Machine Learning Engineer Intern', company: 'Nexa AI', startDate: 'Sep. 2025', endDate: 'Present', 
           jobDescription: []},
 
-        {jobTitle: 'LLM Full Stack Developer Intern', company: 'Accenture (in collaboration with T-Mobile)', startDate: 'Jun. 2025', endDate: 'Sep. 2025', 
+        {jobTitle: 'Full Stack LLM Development Intern', company: 'Accenture (in collaboration with T-Mobile)', startDate: 'Jun. 2025', endDate: 'Sep. 2025', 
           jobDescription: [`Developed a collaborative multi-agent system using AutoGen to tackle real-world business cases, integrating planning, retrieval, and evaluation agents to optimize workflow execution and decision-making`, 
             `Designed and implemented an autonomous evaluation pipeline using AutoGen, featuring an LLM-based planner to intelligently orchestrate scenario evaluations, dynamically prioritizing tasks, and avoiding redundant assessments`, 
             `Achieved 88% evaluation accuracy by optimizing LLM prompts with DSPy and tracking performance improvements using MLflow, enhancing evaluation efficiency and reproducibility.`
