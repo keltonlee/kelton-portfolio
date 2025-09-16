@@ -24,6 +24,9 @@ class App extends Component {
         {name: 'linkedin', url: 'https://www.linkedin.com/in/keltonlee/'}
       ],
       experience: [
+        {jobTitle: 'Machine Learning Engineer Intern', company: 'Nexa AI', startDate: 'Sep. 2025', endDate: 'Present', 
+          jobDescription: []},
+
         {jobTitle: 'LLM Full Stack Developer Intern', company: 'Accenture (in collaboration with T-Mobile)', startDate: 'Jun. 2025', endDate: 'Sep. 2025', 
           jobDescription: [`Developed a collaborative multi-agent system using AutoGen to tackle real-world business cases, integrating planning, retrieval, and evaluation agents to optimize workflow execution and decision-making`, 
             `Designed and implemented an autonomous evaluation pipeline using AutoGen, featuring an LLM-based planner to intelligently orchestrate scenario evaluations, dynamically prioritizing tasks, and avoiding redundant assessments`, 
