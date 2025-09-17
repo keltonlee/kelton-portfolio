@@ -62,16 +62,90 @@ class App extends Component {
       ],
       projects: [
       {
-        title: "AEMA: Agent Evaluation for Business Workflows",
-        techStack: "Python, AutoGen, DSPy, MLflow, FAISS, Azure OpenAI",
-        startDate: "2025",
-        endDate: "Present",
+        title: "Text-Guided Image Editing with Diffusion Models",
+        techStack: "Python, LangChain, Kubernetes",
+        startDate: "Feb. 2025",
+        endDate: "Jun. 2025",
         projectDescription: [
-          "Built a multi-agent evaluation framework to score planning, tool-use, and final decisions.",
-          "Implemented custom metrics (field correctness, order correctness via KTSD, step efficiency).",
-          "Achieved higher agreement with human evaluators vs single LLM-as-a-judge baseline."
+          "Developed a language-guided image editing pipeline enabling end-to-end mask prediction and inpainting for diverse object replacement tasks",
+          "Achieved a 70% reduction in FID by integrating LLaVA for spatial description, Grounded-SAM for precise segmentation, and combining Stable Diffusion with ControlNet for mask generation",
+          "Built and scaled a dataset generation workflow and fine-tuned ControlNet on custom dataset as mask generator"
         ]
-      }],
+      },
+      {
+        title: "Eedi - Mining Misconceptions in Mathematics",
+        techStack: "Python, OpenAI, vLLM, LangChain",
+        startDate: "Sep. 2024",
+        endDate: "Dec. 2024",
+        projectDescription: [
+          "Improved Mean Average Precision (MAP) by 20 points by developing a classification pipeline that integrates Qwen2.5, SFR-Embedding-2, and DeBERTa to identify misconceptions based on incorrect math answers",
+          "Fine-tuned SFR and BGE embedding models by synthesizing data to enable hard negative contrastive learning",
+          "Accelerated inference and compressed model using vLLM by KV caching, continuous batching, and quantization"
+        ]
+      },
+      {
+        title: "LLM RAG Text Classification",
+        techStack: "Python, Llama3, LangChain, faiss",
+        startDate: "Aug. 2024",
+        endDate: "Sep. 2024",
+        projectDescription: [
+          "Achieved 80% accuracy by developing a Llama 3-based text classification system and implementing a Retrieval-Augmented Generation (RAG) model to categorize customer support tickets",
+          "Optimized document retrieval and response generation by embedding both data and user requests with Sentence Transformers for vector search, improving model efficiency and enhancing answer relevance"
+        ]
+      },
+      {
+        title: "Concentracer",
+        techStack: "Python, Java, PHP, MySQL, Caffe, OpenCV, CUDA, Linux, GPU",
+        startDate: "Jun. 2021",
+        endDate: "Jan. 2024",
+        projectDescription: [
+          "Presented and received Best Paper Award in IEEE Eurasia Conference on IoT, Communication and Engineering by leading a 4-person team in developing an Android learning app for dyslexia patients",
+          "Improved dyslexia patients' reading comprehension and concentration by 34\% using a gaze-tracking Caffe model and phrase segmentation system",
+          "Developed a data-driven NLP pipeline for text significance extraction and syntactic parsing using Python, NLTK, and CKIP, and designed a MySQL database"
+        ]
+      },
+      {
+        title: "Encode & Decode Bot",
+        techStack: "Python, HTML, CSS, Javascript, React.js, Docker, SQLite",
+        startDate: "Jan. 2023",
+        endDate: "Jul. 2023",
+        projectDescription: [
+          "Designed a public PDF encoding and decoding cloud service for both web and Discord bot platforms, with functions including encrypting, decrypting, and merging files",
+          "Boosted decoding speed by 35\% by scheduling the use of 5 decoders with Docker and threading to accelerate decoding processes",
+          "Monitored and visualized Docker resource usage and enabled the suspension of ongoing processes through front end"
+        ]
+      },
+      {
+        title: "Diabetes Prediction Analysis",
+        techStack: "Python, Pytorch, Scikit-learn, Pandas, Numpy, Matplotlib",
+        startDate: "Sep. 2022",
+        endDate: "Jan. 2023",
+        projectDescription: [
+          "Achieved 86% accuracy in predicting diabetes by conducting comprehensive analysis using two Kaggle datasets",
+          "Analyzed feature relationships and importance across two distinct datasets using Python, and compared various ML and DL predictions, as well as hyperparameter tuning approaches using PyTorch and Scikit-learn",
+        ]
+      },
+      {
+        title: "Emotional Music",
+        techStack: "Python, Tensorflow, NLTK",
+        startDate: "Jun. 2022",
+        endDate: "Oct. 2022",
+        projectDescription: [
+          "Designed an automated music playback software that plays different styles of music based on the user's emotions",
+          "Built a facial emotion recognition model using TensorFlow and implemented web scraping for free music and music switching functionality using Python",
+        ]
+      },
+      {
+        title: "Keepfitness",
+        techStack: "Python, Java, PHP, SQL, AWS",
+        startDate: "Feb. 2021",
+        endDate: "Jul. 2021",
+        projectDescription: [
+          "Led a team in creating a fitness and diet menu recommendation app, customized to individual physical conditions",
+          "Leveraged over 10,000 records of official government data on food and fitness to establish a backend database with MySQL and developed APIs for data transmission and reception within the Android app using Java",
+        ]
+      },
+      ],
       certificate: [
         {name: 'Natural Language Processing Specialization', institution: 'DeepLearning.AI', date: 'Mar. 2024', description: 'Learned cutting-edge NLP techniques including Sequence models, Attention models, and more!' },
         {name: 'NoSQL, Big Data, and Spark Foundations Specialization', institution: 'IBM', date: 'Apr. 2024', description: 'Learned big data abd machine learning with Hadoop, SQL, MongoDB, and Spark!' }
