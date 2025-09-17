@@ -6,3 +6,10 @@
 .job-description-list li {
     margin-bottom: 10px; /* Adjust this value to add space */
 }
+
+.tech-stack {
+  margin: 4px 0 8px 0;
+  font-size: 0.9em;       
+  color: #666;         
+  font-style: italic; 
+}
