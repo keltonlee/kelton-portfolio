@@ -3,6 +3,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Education from './components/Education';
 import Certificate from './components/Certificate';
+import Projects from './components/Selective_Projects';
 import Skills from './components/Skills';
 import myphoto from './components/myphoto.jpg';
 
@@ -49,12 +50,28 @@ class App extends Component {
           jobDescription: [`Develop real-time viewer counting system on both Linux and Raspberry Pi platforms for 25MPH or higher advertising vehicles`, 
           `Realized 80% accuracy in detecting high-speed imagery using Python, OpenCV, PyTorch, and YOLOv7 by
           developing a facial recognition and tracking system featuring real-time data processing and API integration`, 
-          `Utilized CUDA to accelerate the model to achieve 28 FPS`]}
+          `Utilized CUDA to accelerate the model to achieve 28 FPS`]},
+
+         {jobTitle: 'Teaching Assistant', company: 'Chang Gung University ', startDate: 'Sep. 2022', endDate: 'Jul. 2023', 
+          jobDescription: [`Designed and reviewed programming assignments for a 70-student Introduction to Computer Science course`, 
+          `Tutored students in C/C++ programming skills and relevant knowledge including Object-Oriented Programming`]}
       ],
       education: [
         {degree: 'M.Sc. in Computer Science and Engineering', institution: 'University of California - San Diego', startDate: 'Sep. 2024', endDate: 'Jun. 2026'},
         {degree: 'B.Sc. in Computer Science and Information Engineering', institution: 'Chang Gung University', startDate: 'Sep. 2019', endDate: 'Jun. 2023'},
       ],
+      projects: [
+      {
+        title: "AEMA: Agent Evaluation for Business Workflows",
+        techStack: "Python, AutoGen, DSPy, MLflow, FAISS, Azure OpenAI",
+        startDate: "2025",
+        endDate: "Present",
+        projectDescription: [
+          "Built a multi-agent evaluation framework to score planning, tool-use, and final decisions.",
+          "Implemented custom metrics (field correctness, order correctness via KTSD, step efficiency).",
+          "Achieved higher agreement with human evaluators vs single LLM-as-a-judge baseline."
+        ]
+      }],
       certificate: [
         {name: 'Natural Language Processing Specialization', institution: 'DeepLearning.AI', date: 'Mar. 2024', description: 'Learned cutting-edge NLP techniques including Sequence models, Attention models, and more!' },
         {name: 'NoSQL, Big Data, and Spark Foundations Specialization', institution: 'IBM', date: 'Apr. 2024', description: 'Learned big data abd machine learning with Hadoop, SQL, MongoDB, and Spark!' }
@@ -87,6 +104,7 @@ class App extends Component {
               <div className='content'>
                 <Experience experience={person.experience} />
                 <Education education={person.education} />
+                <Projects projects={person.projects} />
                 <Certificate certificate={person.certificate} />
                 <Skills skills={person.skills} />
               </div>
