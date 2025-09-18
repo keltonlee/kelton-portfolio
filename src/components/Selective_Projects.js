@@ -32,7 +32,7 @@ const Projects = (props) => {
 
   return (
     <div className='title'>
-      <i className='fa fa-code'></i>
+      <i className='fa fa-bolt'></i>
       <h2>SELECTIVE PROJECTS</h2>
       {myProjects}
     </div>
