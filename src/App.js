@@ -26,7 +26,9 @@ class App extends Component {
       ],
       experience: [
         {jobTitle: 'Machine Learning Engineer Intern', company: 'Nexa AI', startDate: 'Sep. 2025', endDate: 'Present', 
-          jobDescription: []},
+          jobDescription: [`Optimized multimodal models for on-device use to reduce latency and memory for real-time inference`, 
+            `Developed an autonomous Web Agent leveraging Nexa SDK and VLMs, enabling real-time reasoning, multi-tool interaction, and web search integration for dynamic task execution`
+          ]},
 
         {jobTitle: 'Full Stack LLM Development Intern', company: 'Accenture (in collaboration with T-Mobile)', startDate: 'Jun. 2025', endDate: 'Sep. 2025', 
           jobDescription: [`Developed a collaborative multi-agent system using AutoGen to tackle real-world business cases, integrating planning, retrieval, and evaluation agents to optimize workflow execution and decision-making`, 
@@ -61,6 +63,16 @@ class App extends Component {
         {degree: 'B.Sc. in Computer Science and Information Engineering', institution: 'Chang Gung University', startDate: 'Sep. 2019', endDate: 'Jun. 2023'},
       ],
       projects: [
+      {
+        title: "Speculative Tool Calling for Efficient AI Agents (WukLab UCSD)",
+        techStack: "Python, LangChain, LangGraph",
+        startDate: "Sep. 2025",
+        endDate: "Present",
+        projectDescription: [
+          "Built a speculation pipeline where a lightweight draft model predicts and pre-executes the next agent tool call, and the target model reuses matching results to reduce end-to-end latency using LangGraph",
+          "Designed fast verification heuristics to match diverse draft vs target tool calls without executing expensive tools"
+        ]
+      },
       {
         title: "Text-Guided Image Editing with Diffusion Models",
         techStack: "Python, LangChain, Kubernetes",
