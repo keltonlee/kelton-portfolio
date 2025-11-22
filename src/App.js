@@ -33,7 +33,9 @@ class App extends Component {
         {jobTitle: 'Full Stack LLM Development Intern', company: 'Accenture (in collaboration with T-Mobile)', startDate: 'Jun. 2025', endDate: 'Sep. 2025', 
           jobDescription: [`Developed a collaborative multi-agent system using AutoGen to tackle real-world business cases, integrating planning, retrieval, and evaluation agents to optimize workflow execution and decision-making`, 
             `Designed and implemented an autonomous evaluation pipeline using AutoGen, featuring an LLM-based planner to intelligently orchestrate scenario evaluations, dynamically prioritizing tasks, and avoiding redundant assessments`, 
-            `Achieved 88% evaluation accuracy by optimizing LLM prompts with DSPy and tracking performance improvements using MLflow, enhancing evaluation efficiency and reproducibility.`
+            `Achieved 88% evaluation accuracy by optimizing LLM prompts with DSPy and tracking performance improvements using MLflow, enhancing evaluation efficiency and reproducibility.`,
+            'AEMA: Verifiable Evaluation Framework for Trustworthy and Controlled Agentic LLM Systems. Accepted to the AAAI 2026 TrustAgent Workshop.',
+            'POLARIS: Typed Planning and Governed Execution for Agentic AI in Back-Office Automation. Accepted to AABA4ET @ AAAI 2026.'
           ]},
 
         {jobTitle: 'Machine Learning Research Assistant', company: 'Academia Sinica', startDate: 'Aug. 2023', endDate: 'Jun. 2025', 
