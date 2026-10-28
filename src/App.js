@@ -25,7 +25,15 @@ class App extends Component {
         {name: 'linkedin', url: 'https://www.linkedin.com/in/keltonlee/'}
       ],
       experience: [
-        {jobTitle: 'Machine Learning Engineer Intern', company: 'Nexa AI', startDate: 'Sep. 2025', endDate: 'Present', 
+        {jobTitle: 'Machine Learning Engineer', company: 'Eightfold.ai', startDate: 'Jun. 2026', endDate: 'Present', 
+          jobDescription: [`Improved feature consistency of a production DCNv2 ranking model by 20 points and ground-truth label alignment by ~30 points by conducting variance ablation on LLM-generated input features and optimizing entity-specific extraction prompts and schemas`, 
+            `Built an end-to-end evaluation platform for deep and tree-based ranking models scaling to 3M candidate–job pairs per run, integrating batched inference, multi-LLM judge panels, and hiring-outcome analysis to support the production migration from XGBoost to DCNv2`,
+            `Designed a 37-language perturbation benchmark over 855K candidate–job pairs, showing a 12-point ROC-AUC advantage and 2.4× lower language-induced score drift for DCNv2 over XGBoost`,
+            `Benchmarked a learned ranking model against 9 frontier LLM judges over 90K+ repeated scoring calls, demonstrating higher ROC-AUC with fully deterministic outputs and tracing residual variance to upstream LLM feature generation`,
+            `Profiled batched CPU inference at 3.7 ms per ranking pair to validate production serving, and diagnosed a 2× latency regression caused by burstable compute nodes`
+          ]},
+
+        {jobTitle: 'Deep Learning Engineer Intern', company: 'Nexa AI', startDate: 'Sep. 2025', endDate: 'Jan. 2026', 
           jobDescription: [`Optimized multimodal models for on-device use to reduce latency and memory for real-time inference`, 
             `Developed an autonomous Web Agent leveraging Nexa SDK and VLMs, enabling real-time reasoning, multi-tool interaction, and web search integration for dynamic task execution`
           ]},
@@ -69,7 +77,7 @@ class App extends Component {
         title: "Speculative Tool Calling for Efficient AI Agents (WukLab UCSD)",
         techStack: "Python, LangChain, LangGraph",
         startDate: "Sep. 2025",
-        endDate: "Present",
+        endDate: "Feb. 2026",
         projectDescription: [
           "Built a speculation pipeline where a lightweight draft model predicts and pre-executes the next agent tool call, and the target model reuses matching results to reduce end-to-end latency using LangGraph",
           "Designed fast verification heuristics to match diverse draft vs target tool calls without executing expensive tools"
@@ -84,6 +92,17 @@ class App extends Component {
           "Developed a language-guided image editing pipeline enabling end-to-end mask prediction and inpainting for diverse object replacement tasks",
           "Achieved a 70% reduction in FID by integrating LLaVA for spatial description, Grounded-SAM for precise segmentation, and combining Stable Diffusion with ControlNet for mask generation",
           "Built and scaled a dataset generation workflow and fine-tuned ControlNet on custom dataset as mask generator"
+        ]
+      },
+      {
+        title: "Transformer with Efficient Attention",
+        techStack: "Python, Pytorch",
+        startDate: "Sep. 2024",
+        endDate: "Dec. 2024",
+        projectDescription: [
+          "Built an encoder–decoder Transformer in PyTorch with an end-to-end training and evaluation pipeline",
+          "Implemented ALiBi to replace absolute positional encoding, enabling length extrapolation beyond training context",
+          "Reduced attention complexity via Longformer-style sliding-window attention with global tokens"
         ]
       },
       {
